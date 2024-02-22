@@ -4,6 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+//Se inserta el modelo categoria
+use App\Models\Categoria;
+
 class CategoriaController extends Controller
 {
     /**

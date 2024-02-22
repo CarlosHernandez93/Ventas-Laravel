@@ -23,6 +23,8 @@ class CategoriaFormRequest extends FormRequest
     {
         return [
             //
+            'categoria'=>'required|max:50',
+            'descripcion'=>'max:50'
         ];
     }
 }
